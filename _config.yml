@@ -1,13 +1,14 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Chih-Yao Ma
+title: Chih-Yao Ma's Personal Website
 description: Chih-Yao Ma's Personal Website.
 keywords: Chih-Yao Ma
 # baseurl:  /Jalpc # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: https://chihyaoma.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: /chihyaoma/static/assets/img/blog  # url should be '/homepage/static/assets/img/blog' as before
+logo: /static/assets/img/landing/20171124-cropped-circle.png
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
@@ -68,3 +69,7 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
+# Search engine optimization for GitHub Pages
+# https://help.github.com/articles/search-engine-optimization-for-github-pages/
+plugins:
+  - jekyll-seo-tag
