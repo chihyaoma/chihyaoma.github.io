@@ -36,7 +36,8 @@
   tpl: project.html
   page: project/
   # css: testimonials navy-section
-  css: navy-section
+  # css: navy-section
+  css: contact navy-section
 
 # - id: links
 #   i18n: nav.link
