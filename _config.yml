@@ -12,7 +12,7 @@ logo: /static/assets/img/landing/20171124-cropped-circle.png
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: chihyaoma  # Be used at blog posts' author.
+  name: Chih-Yao Ma  # Be used at blog posts' author.
   first_name: Chih-Yao  # Be used at index page about me section.
   last_name: Ma  # Be used at index page about me section.
   avatar: /static/assets/img/landing/20171124_cropped.jpg  # upload your avatar at directory and edit it.
