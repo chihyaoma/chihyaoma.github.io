@@ -10,10 +10,11 @@ icon:
 ---
 
 ## **Self-Monitoring Navigation Agent via Auxiliary Progress Estimation**
-Chih-Yao Ma, Jiasen Lu, Zuxuan Wu, Ghassan AlRegib, Zsolt Kira, Richard Socher, Xiong<br>
-Under Review for ICLR, 2019<br>
+[Chih-Yao Ma](https://chihyaoma.github.io/), [Jiasen Lu](https://www.cc.gatech.edu/~jlu347/), [Zuxuan Wu](http://zxwu.azurewebsites.net/), [Ghassan AlRegib](https://ghassanalregib.com/), [Zsolt Kira](https://www.cc.gatech.edu/~zk15/), [Richard Socher](https://www.socher.org/), [Caiming Xiong](http://www.stat.ucla.edu/~caiming/)<br>
+Under Review, 2019<br>
 <!-- International Conference on Learning Representations (ICLR), 2019<br> -->
-[arXiv (coming soon)] [GitHub (coming soon)] [[OpenReview]](https://openreview.net/forum?id=r1GAsjC5Fm)
+[arXiv (coming soon)] [GitHub (coming soon)]
+<!-- [[OpenReview]](https://openreview.net/forum?id=r1GAsjC5Fm) -->
 
 ---
 ## Abstract
