@@ -18,6 +18,7 @@ icon:
 [Chih-Yao Ma](https://chihyaoma.github.io/), [Jiasen Lu](https://www.cc.gatech.edu/~jlu347/), [Zuxuan Wu](http://zxwu.azurewebsites.net/), [Ghassan AlRegib](https://ghassanalregib.com/), [Zsolt Kira](https://www.cc.gatech.edu/~zk15/), [Richard Socher](https://www.socher.org/), [Caiming Xiong](http://www.stat.ucla.edu/~caiming/)<br>
 <!-- Under Review, 2019<br> -->
 International Conference on Learning Representations (ICLR), 2019<br>
+**Top 5% of reviews!**<br>
 [[OpenReview]](https://openreview.net/forum?id=r1GAsjC5Fm)
 [arXiv (coming soon)] [GitHub (coming soon)]
 
