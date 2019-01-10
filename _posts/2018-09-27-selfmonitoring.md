@@ -20,7 +20,8 @@ icon:
 International Conference on Learning Representations (ICLR), 2019<br>
 **Top 5% of reviews!**<br>
 [[OpenReview]](https://openreview.net/forum?id=r1GAsjC5Fm)
-[arXiv (coming soon)] [GitHub (coming soon)]
+[[GitHub]](https://github.com/chihyaoma/selfmonitoring-agent)
+[arXiv (coming soon)]
 
 ---
 ## Abstract
