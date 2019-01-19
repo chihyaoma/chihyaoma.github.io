@@ -29,7 +29,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-globe
     - name: icon-ubuntu
-  desc: My name is Chih-Yao Ma. I am an ECE Ph.D. student at Georgia Tech. My research interest lies in the intersection of vision and language. In recent years, I have been primarily focusing on the research fields at the intersection of computer vision, natural language processing, and temporal reasoning. I have conducted researches on large-scale video classification, fine-grained human action recognition, relational reasoning for video understanding, visually grounded video captioning, and vision-and-language navigation agents. # Describe yourself.
+  desc: My name is Chih-Yao Ma. I am an ECE Ph.D. student at Georgia Tech. In recent years, I have been primarily focusing on the research fields at the intersection of computer vision, natural language processing, and temporal reasoning. I have conducted researches on large-scale video classification, fine-grained human action recognition, relational reasoning for video understanding, visually grounded video captioning, and vision-and-language navigation agents. # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
