@@ -3,10 +3,10 @@
 #
 # Images are expected to be located in `static/assets/img/`.
 - src: landing/header-Mount_Rainier-2.jpg
-  title: first banner image
+  title: banner image
 
 - src: landing/header-Mount_Rainier-1.jpg
-  title: second banner image
+  title: banner image
 
 # - src: landing/header_three.jpg
 #   title: second banner image
