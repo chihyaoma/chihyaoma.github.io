@@ -1,4 +1,13 @@
 <script type="text/javascript" src="build/hidebib.js"></script>
+<script type="text/javascript">
+  function toggle_visibility(id) {
+      var e = document.getElementById(id);
+      if(e.style.display == 'block')
+         e.style.display = 'none';
+      else
+         e.style.display = 'block';
+  }
+</script>
 
 <div class="container">
     <div class="row m-b-lg">
@@ -28,7 +37,18 @@
             <strong> Chih-Yao Ma</strong>, Zuxuan Wu, Ghassan AlRegib, Caiming Xiong, Zsolt Kira<br>
           <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2019<br>
           [arXiv (coming soon)] / [GitHub (coming soon)] /
-          <a href="project/2019/02/25/regretful.html">[Project]</a>
+          <a href="project/2019/02/25/regretful.html">[Project]</a> /
+          [<a href="javascript:void(0)" onclick="toggle_visibility('regretful_bibtex');">bibtex</a>]
+          <div id='regretful_bibtex' style="display:none; font-size:small;">
+<pre><code>
+@inproceedings{ma2019theregretful,
+  title={The Regretful Agent: Heuristic-Aided Navigation through Progress Estimation},
+  author={Chih-Yao Ma and Zuxuan Wu and Ghassan AlRegib and Caiming Xiong and Zsolt Kira},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2019},
+}
+</code></pre>
+          </div>
         </td> 
         </td>
       </table>
@@ -46,7 +66,19 @@
               Zuxuan Wu, Caiming Xiong, <strong> Chih-Yao Ma</strong>, Richard Socher, Larry S Davis<br>
             <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2019<br>
             <div class="paper" id="adaframe">
-            <a href="https://arxiv.org/abs/1811.12432">[arXiv]</a>
+            <a href="https://arxiv.org/abs/1811.12432">[arXiv]</a> /
+            [<a href="javascript:void(0)" onclick="toggle_visibility('adaframe_bibtex');">bibtex</a>]
+            <div id='adaframe_bibtex' style="display:none; font-size:small;">
+<pre><code>
+@inproceedings{wu2019adaframe,
+  title={AdaFrame: Adaptive Frame Selection for Fast Video Recognition},
+  author={Wu, Zuxuan and Xiong, Caiming and Ma, Chih-Yao and Socher, Richard and Davis, Larry S},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2019},
+  url={https://arxiv.org/abs/1811.12432},
+}
+</code></pre>
+            </div>
           </td> 
           </td>
         </table>
@@ -68,7 +100,19 @@
               <a href="https://arxiv.org/abs/1901.03035">[arXiv]</a> /
               <a href="https://openreview.net/forum?id=r1GAsjC5Fm">[OpenReview]</a> /
               <a href="https://github.com/chihyaoma/selfmonitoring-agent">[GitHub]</a> /
-              <a href="project/2018/09/27/selfmonitoring.html">[Project]</a>
+              <a href="project/2018/09/27/selfmonitoring.html">[Project]</a> /
+              [<a href="javascript:void(0)" onclick="toggle_visibility('selfmonitoring_bibtex');">bibtex</a>]
+              <div id='selfmonitoring_bibtex' style="display:none; font-size:small;">
+<pre><code>
+@inproceedings{ma2019selfmonitoring,
+  title={Self-Monitoring Navigation Agent via Auxiliary Progress Estimation},
+  author={Chih-Yao Ma and Jiasen Lu and Zuxuan Wu and Ghassan AlRegib and Zsolt Kira and Richard Socher and Caiming Xiong},
+  booktitle={Proceedings of the International Conference on Learning Representations (ICLR)},
+  year={2019},
+  url={https://arxiv.org/abs/1901.03035},
+}
+</code></pre>
+              </div>
           </td> 
           </td>
         </table>
@@ -89,16 +133,18 @@
               <a href="https://arxiv.org/abs/1711.06330">[arXiv]</a> /
               <a href="https://mlatgt.blog/2018/04/02/from-object-interactions-to-fine-grained-video-understanding/"> [ML@GT Blog]</a> /
               <a href="project/2017/11/16/interact.html">[Project]</a> /
-              <a href="static/assets/pdf/cvpr2018_poster_final.pdf">[Poster]</a>
-              <!-- <a shape="rect" href="javascript:togglebib('interaction')" class="togglebib">bibtex</a>
-              <pre xml:space="preserve">
+              <a href="static/assets/pdf/cvpr2018_poster_final.pdf">[Poster]</a> /
+              [<a href="javascript:void(0)" onclick="toggle_visibility('attend_bibtex');">bibtex</a>]
+              <div id='attend_bibtex' style="display:none; font-size:small;">
+<pre><code>
 @inproceedings{ma2018attend,
-    title={Attend and Interact: Higher-Order Object Interactions for Video Understanding},
-    author={Ma, Chih-Yao and Kadav, Asim and Melvin, Iain and Kira, Zsolt and AlRegib, Ghassan and Graf, Hans Peter},
-    booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-    year={2018}
+  title={Attend and Interact: Higher-Order Object Interactions for Video Understanding},
+  author={Ma, Chih-Yao and Kadav, Asim and Melvin, Iain and Kira, Zsolt and AlRegib, Ghassan and Graf, Hans Peter},
+  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2018}
 }
-              </pre> -->
+</code></pre>
+              </div>
             </div>
           </td> 
           </td>
@@ -114,7 +160,6 @@
           <img src="static/assets/img/teasers/tslstm-demo-3.gif" alt="game" width="25%" style="border-style: none">
           <img src="static/assets/img/teasers/tslstm-demo-4.gif" alt="game" width="25%" style="border-style: none">
         <td width="50%" valign="center">
-          <!-- <p><a href="https://arxiv.org/abs/1703.10667"><heading>TS-LSTM and temporal-inception: Exploiting spatiotemporal dynamics for activity recognition</heading></a><br> -->
           <font color="#2C90DE"><heading>TS-LSTM and temporal-inception: Exploiting spatiotemporal dynamics for activity recognition</heading></font><br>
             <strong> Chih-Yao Ma*</strong>, Min-Hung Chen*, Zsolt Kira, and Ghassan AlRegib<br>
           <em>Signal Processing: Image Communication</em>, 2018<br>
@@ -122,16 +167,21 @@
           <div class="paper" id="tslstm">
             <a href="https://arxiv.org/abs/1703.10667">[arXiv]</a> /
             <a href="https://github.com/chihyaoma/Activity-Recognition-with-CNN-and-RNN">[GitHub]</a> /
-            <a href="project/2017/03/30/tslstm.html">[Project]</a>
-            <!-- <a shape="rect" href="javascript:togglebib('interaction')" class="togglebib">bibtex</a> -->
-            <!-- <pre xml:space="preserve">
-@inproceedings{ma2018attend,
-  title={Attend and Interact: Higher-Order Object Interactions for Video Understanding},
-  author={Ma, Chih-Yao and Kadav, Asim and Melvin, Iain and Kira, Zsolt and AlRegib, Ghassan and Graf, Hans Peter},
-  booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-  year={2018}
+            <a href="project/2017/03/30/tslstm.html">[Project]</a> /
+            [<a href="javascript:void(0)" onclick="toggle_visibility('tslstm_bibtex');">bibtex</a>]
+            <div id='tslstm_bibtex' style="display:none; font-size:small;">
+<pre><code>
+@article{ma2019ts,
+  title={TS-LSTM and temporal-inception: Exploiting spatiotemporal dynamics for activity recognition},
+  author={Ma, Chih-Yao and Chen, Min-Hung and Kira, Zsolt and AlRegib, Ghassan},
+  journal={Signal Processing: Image Communication},
+  volume={71},
+  pages={76--87},
+  year={2019},
+  publisher={Elsevier}
 }
-            </pre> -->
+</code></pre>
+            </div>
           </div>
         </td> 
         </td>
@@ -145,22 +195,22 @@
             <!-- <img src="static/assets/img/teasers/caption.png" alt="game" height="40%" style="border-style: none"> -->
             <img src="static/assets/img/teasers/caption.png" alt="game" width="50%" style="border-style: none">
           <td width="50%" valign="center">
-            <!-- <p><a href="https://arxiv.org/abs/1711.06354"><heading>Grounded Objects and Interactions for Video Captioning</heading></a><br> -->
             <font color="#2C90DE"><heading>Grounded Objects and Interactions for Video Captioning</heading></font><br>
               <strong> Chih-Yao Ma</strong>, Asim Kadav, Iain Melvin, Zsolt Kira, Ghassan AlRegib, Hans Peter Graf<br>
             <em>Neural Information Processing Systems (NeurIPS) Workshop on Visually-Grounded Interaction and Language</em>, 2017<br>
             <div class="paper" id="caption">
-              <a href="https://arxiv.org/abs/1711.06354">[arXiv]</a>
-              <!-- <a href=""> project page</a> / -->
-              <!-- <a shape="rect" href="javascript:togglebib('interaction')" class="togglebib">bibtex</a> -->
-              <!-- <pre xml:space="preserve">
-@inproceedings{ma2018attend,
-    title={Attend and Interact: Higher-Order Object Interactions for Video Understanding},
-    author={Ma, Chih-Yao and Kadav, Asim and Melvin, Iain and Kira, Zsolt and AlRegib, Ghassan and Graf, Hans Peter},
-    booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-    year={2018}
+              <a href="https://arxiv.org/abs/1711.06354">[arXiv]</a> /
+              [<a href="javascript:void(0)" onclick="toggle_visibility('Grounded_bibtex');">bibtex</a>]
+              <div id='Grounded_bibtex' style="display:none; font-size:small;">
+<pre><code>
+@article{ma2017grounded,
+  title={Grounded Objects and Interactions for Video Captioning},
+  author={Ma, Chih-Yao and Kadav, Asim and Melvin, Iain and Kira, Zsolt and AlRegib, Ghassan and Graf, Hans Peter},
+  journal={arXiv preprint arXiv:1711.06354},
+  year={2017}
 }
-              </pre> -->
+</code></pre>
+              </div>
             </div>
           </td> 
           </td>
@@ -181,16 +231,22 @@
                   <strong> Chih-Yao Ma</strong> and Hsueh-Ming Hang<br>
                 <em>Journal of vision</em>, 2015<br>
                 <div class="paper" id="saliency">
-                  <a href="https://jov.arvojournals.org/article.aspx?articleid=2300610">[Paper]</a>
-                  <!-- <a shape="rect" href="javascript:togglebib('interaction')" class="togglebib">bibtex</a> -->
-                  <!-- <pre xml:space="preserve">
-    @inproceedings{ma2018attend,
-        title={Attend and Interact: Higher-Order Object Interactions for Video Understanding},
-        author={Ma, Chih-Yao and Kadav, Asim and Melvin, Iain and Kira, Zsolt and AlRegib, Ghassan and Graf, Hans Peter},
-        booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-        year={2018}
-    }
-                  </pre> -->
+                  <a href="https://jov.arvojournals.org/article.aspx?articleid=2300610">[Paper]</a> /
+                  [<a href="javascript:void(0)" onclick="toggle_visibility('saliency_bibtex');">bibtex</a>]
+                  <div id='saliency_bibtex' style="display:none; font-size:small;">
+<pre><code>
+@article{ma2015learning,
+  title={Learning-based saliency model with depth information},
+  author={Ma, Chih-Yao and Hang, Hsueh-Ming},
+  journal={Journal of vision},
+  volume={15},
+  number={6},
+  pages={19--19},
+  year={2015},
+  publisher={The Association for Research in Vision and Ophthalmology}
+}
+</code></pre>
+                  </div>
                 </div>
               </td> 
               </td>
