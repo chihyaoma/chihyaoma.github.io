@@ -35,7 +35,7 @@ div.section_header {
 
 ## **The Regretful Agent: Heuristic-Aided Navigation through Progress Estimation**
 [**Chih-Yao Ma**](https://chihyaoma.github.io/), [Zuxuan Wu](http://zxwu.azurewebsites.net/), [Ghassan AlRegib](https://ghassanalregib.com/), [Caiming Xiong](http://www.stat.ucla.edu/~caiming/), [Zsolt Kira](https://www.cc.gatech.edu/~zk15/)<br>
-IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019<br>
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019 **(Oral)**<br>
 
 [arXiv (coming soon)] [Github (coming soon)]
 <!-- [[arXiv]](https://arxiv.org/abs/1901.03035)
