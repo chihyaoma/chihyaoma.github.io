@@ -37,9 +37,8 @@ div.section_header {
 [**Chih-Yao Ma**](https://chihyaoma.github.io/), [Zuxuan Wu](http://zxwu.azurewebsites.net/), [Ghassan AlRegib](https://ghassanalregib.com/), [Caiming Xiong](http://www.stat.ucla.edu/~caiming/), [Zsolt Kira](https://www.cc.gatech.edu/~zk15/)<br>
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019 **(Oral)**<br>
 
-[arXiv (coming soon)] [Github (coming soon)]
-<!-- [[arXiv]](https://arxiv.org/abs/1901.03035)
-[[GitHub]](https://github.com/chihyaoma/regretful-agent) -->
+[[arXiv]](https://arxiv.org/abs/1903.01602)
+[[GitHub]](https://github.com/chihyaoma/regretful-agent)
 
 ---
 <div class="section_header">Abstract</div>
@@ -91,12 +90,16 @@ Please refer to the Appendix for the full trajectories and unsuccessful examples
 <div class="section_header">Code and Paper</div>
 <div id="images">
   <div class="half">
+  <a href="https://github.com/chihyaoma/regretful-agent">
     <img class="gunimage" alt="idk" src="../../../../static/assets/img/blog/github-icon.png?raw=true">
-    <p>GitHub (coming soon)</p>
+    <p>GitHub</p>
+  </a>
   </div>
   <div class="half">
+    <a href="https://arxiv.org/abs/1903.01602">
     <img class="gunimage" alt="idk" src="../../../../static/assets/img/blog/paper-icon.png?raw=true">
-    <p>arXiv (coming soon)</p>
+    <p>arXiv</p>
+    </a>
   </div>
 </div>
 <div style="clear: both;"></div>
@@ -110,5 +113,6 @@ If you find this repository useful, please cite our paper:
     author={Chih-Yao Ma and Zuxuan Wu and Ghassan AlRegib and Caiming Xiong and Zsolt Kira},
     booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
     year={2019},
+    url={https://arxiv.org/abs/1903.01602},
 }
 </code></pre>
