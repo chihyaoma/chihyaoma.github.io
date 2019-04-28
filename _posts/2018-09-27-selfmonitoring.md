@@ -9,6 +9,18 @@ tags:
 icon:
 ---
 
+<meta name="citation_title" content="Self-Monitoring Navigation Agent via Auxiliary Progress Estimation">
+<meta name="citation_author" content="Ma, Chih-Yao">
+<meta name="citation_author" content="Lu, Jiasen">
+<meta name="citation_author" content="Wu, Zuxuan">
+<meta name="citation_author" content="AlRegib, Ghassan">
+<meta name="citation_author" content="Kira, Zsolt">
+<meta name="citation_author" content="Socher, Richard">
+<meta name="citation_author" content="Xiong, Caiming">
+<meta name="citation_publication_date" content="2019/01/07">
+<meta name="citation_conference_title" content="International Conference on Learning Representations (ICLR)">
+<meta name="citation_pdf_url" content="https://arxiv.org/pdf/1901.03035.pdf">
+
 <head>
 <style>
 .gunimage {

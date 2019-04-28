@@ -9,6 +9,16 @@ tags:
 icon:
 ---
 
+<meta name="citation_title" content="The Regretful Agent: Heuristic-Aided Navigation through Progress Estimation">
+<meta name="citation_author" content="Ma, Chih-Yao">
+<meta name="citation_author" content="Wu, Zuxuan">
+<meta name="citation_author" content="AlRegib, Ghassan">
+<meta name="citation_author" content="Xiong, Caiming">
+<meta name="citation_author" content="Kira, Zsolt">
+<meta name="citation_publication_date" content="2019/03/05">
+<meta name="citation_conference_title" content="Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)">
+<meta name="citation_pdf_url" content="https://arxiv.org/pdf/1903.01602.pdf">
+
 <head>
 <style>
 .gunimage {
