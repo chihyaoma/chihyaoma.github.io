@@ -1,0 +1,575 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<title>Image Captioning Study</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif;margin:20;padding:20}
+.mySlides {display: none}
+
+table
+</style>
+<body style="margin:20;padding:20">
+
+
+        <h2> Study ID: 3-1-1</h2>
+        <h4>
+        <table border=2>
+          <col width="100">
+          <col width="300">
+          <col width="500">
+          
+            <tr>
+            <td>
+            Image 0
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/3155657768.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a group of people are playing with a woman in a yard</b> </br></br>
+            B: <b>a group of people are standing in a yard</b> </br>
+            
+            <tr>
+            <td>
+            Image 1
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/407815946.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man in a blue shirt and a red hat is standing in a field</b> </br></br>
+            B: <b>a man in a blue shirt is standing in a field</b> </br>
+            
+            <tr>
+            <td>
+            Image 2
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/12252043.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a group of children are sitting around a table</b> </br></br>
+            B: <b>a group of children are sitting around a table</b> </br>
+            
+            <tr>
+            <td>
+            Image 3
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/246231741.jpg", width="300">
+            </td>
+            <td>
+            A: <b>two dogs are running through the woods</b> </br></br>
+            B: <b>two dogs are playing in the woods</b> </br>
+            
+            <tr>
+            <td>
+            Image 4
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/45543081.jpg", width="300">
+            </td>
+            <td>
+            A: <b>two men are pulling a cart full of food</b> </br></br>
+            B: <b>two men are working on a cart with a cart full of vegetables</b> </br>
+            
+            <tr>
+            <td>
+            Image 5
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/7037413229.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man in a blue shirt is washing a boat</b> </br></br>
+            B: <b>a man is working on a boat</b> </br>
+            
+            <tr>
+            <td>
+            Image 6
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/428485639.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a girl in a blue shirt sits on a metal railing</b> </br></br>
+            B: <b>a girl sits on a metal rail</b> </br>
+            
+            <tr>
+            <td>
+            Image 7
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/2760716468.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man is sitting on the sidewalk with a bag</b> </br></br>
+            B: <b>a man in a black shirt and khaki pants is sitting on a stone wall</b> </br>
+            
+            <tr>
+            <td>
+            Image 8
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/4914029409.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a young boy rides a red bike</b> </br></br>
+            B: <b>a group of people are riding bikes in a street</b> </br>
+            
+            <tr>
+            <td>
+            Image 9
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/2809218945.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man in an orange jumpsuit is working on a metal structure</b> </br></br>
+            B: <b>a man in an orange jumpsuit is standing on a ladder</b> </br>
+            
+            <tr>
+            <td>
+            Image 10
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/6278649113.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a woman is exercising on a wooden floor</b> </br></br>
+            B: <b>a woman in a blue shirt and black pants is bowling</b> </br>
+            
+            <tr>
+            <td>
+            Image 11
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/3430607596.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a young man in red shorts is jumping into the water</b> </br></br>
+            B: <b>a young man in red swim trunks is jumping into the water</b> </br>
+            
+            <tr>
+            <td>
+            Image 12
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/3560125106.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a woman is jumping over a bull while a bull is being thrown by a man</b> </br></br>
+            B: <b>a man is jumping over a cow while another dog is jumping over it</b> </br>
+            
+            <tr>
+            <td>
+            Image 13
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/583865081.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man in a pink shirt is talking on a cellphone</b> </br></br>
+            B: <b>a man in a black shirt and blue jeans is talking on his cellphone</b> </br>
+            
+            <tr>
+            <td>
+            Image 14
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/2725508159.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a boy in a blue kayak is paddling through a lake</b> </br></br>
+            B: <b>a boy in a life life vest paddles through the water</b> </br>
+            
+            <tr>
+            <td>
+            Image 15
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/411175971.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a dog running on the beach</b> </br></br>
+            B: <b>a dog is running on the beach</b> </br>
+            
+            <tr>
+            <td>
+            Image 16
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/4469735380.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man and a woman are cooking food in a wok</b> </br></br>
+            B: <b>two people are cooking food in a kitchen</b> </br>
+            
+            <tr>
+            <td>
+            Image 17
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/1287704027.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man and a woman are working in a market</b> </br></br>
+            B: <b>a woman in a striped shirt is looking at a man in a white shirt with a bag of food</b> </br>
+            
+            <tr>
+            <td>
+            Image 18
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/5126446040.jpg", width="300">
+            </td>
+            <td>
+            A: <b>four men are standing in a kitchen , one is holding a green box and the other is looking at</b> </br></br>
+            B: <b>three men are standing in a kitchen , one is holding a cup and the other is standing next to</b> </br>
+            
+            <tr>
+            <td>
+            Image 19
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/4971580248.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a woman in black and black walks down the street</b> </br></br>
+            B: <b>a woman in black boots and a black hat is walking down the street</b> </br>
+            
+            <tr>
+            <td>
+            Image 20
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/2255338013.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man is jumping from a cliff into the water</b> </br></br>
+            B: <b>a man is hanging from a rope into the water</b> </br>
+            
+            <tr>
+            <td>
+            Image 21
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/6995905943.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a group of young people are playing volleyball</b> </br></br>
+            B: <b>a group of young men are playing rugby</b> </br>
+            
+            <tr>
+            <td>
+            Image 22
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/5222104909.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a young child is sitting on a wooden chair</b> </br></br>
+            B: <b>a small child is sitting on a wooden wooden structure</b> </br>
+            
+            <tr>
+            <td>
+            Image 23
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/230486268.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a young boy in a red shirt is digging in the sand</b> </br></br>
+            B: <b>a young boy in a red shirt is playing with a yellow shovel</b> </br>
+            
+            <tr>
+            <td>
+            Image 24
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/1104087374.jpg", width="300">
+            </td>
+            <td>
+            A: <b>two young men are playing in the mud</b> </br></br>
+            B: <b>two young boys are playing in the water with a man in a swimsuit</b> </br>
+            
+            <tr>
+            <td>
+            Image 25
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/4562512283.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man in shorts and a striped shirt is looking at a selection of candy</b> </br></br>
+            B: <b>a man in a striped shirt is standing in front of a counter</b> </br>
+            
+            <tr>
+            <td>
+            Image 26
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/2190227737.jpg", width="300">
+            </td>
+            <td>
+            A: <b>two dogs are playing with a brown dog</b> </br></br>
+            B: <b>two dogs are playing tug-of-war with a woman in a field</b> </br>
+            
+            <tr>
+            <td>
+            Image 27
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/4885361477.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a woman in a striped shirt is walking down the street</b> </br></br>
+            B: <b>a man in a striped shirt and blue jeans walking down the street</b> </br>
+            
+            <tr>
+            <td>
+            Image 28
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/405556084.jpg", width="300">
+            </td>
+            <td>
+            A: <b>two old men sit on a chair in front of a blue door</b> </br></br>
+            B: <b>two men sitting on a chair outside a blue building</b> </br>
+            
+            <tr>
+            <td>
+            Image 29
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/3599392711.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man in a speedo is standing in front of a group of people</b> </br></br>
+            B: <b>a man in a suit is holding a microphone and a man in a black suit is standing in front</b> </br>
+            
+            <tr>
+            <td>
+            Image 30
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/7072093125.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a person in a blue shirt is cleaning a bottle of water</b> </br></br>
+            B: <b>a person in blue is using a blue object to cut a glass of water</b> </br>
+            
+            <tr>
+            <td>
+            Image 31
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/4464247181.jpg", width="300">
+            </td>
+            <td>
+            A: <b>two people are sitting on a bench</b> </br></br>
+            B: <b>two women are sitting on a bench</b> </br>
+            
+            <tr>
+            <td>
+            Image 32
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/1408554531.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a woman in jeans and a black shirt is walking down a sidewalk</b> </br></br>
+            B: <b>a woman in jeans and a black shirt is walking on a platform</b> </br>
+            
+            <tr>
+            <td>
+            Image 33
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/3474908743.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man in a striped shirt is standing in front of a blue door</b> </br></br>
+            B: <b>a young man in a striped shirt is standing in front of a blue door</b> </br>
+            
+            <tr>
+            <td>
+            Image 34
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/4735200580.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a young boy in a green shirt is jumping in the water</b> </br></br>
+            B: <b>a young man jumping in a lake</b> </br>
+            
+            <tr>
+            <td>
+            Image 35
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/4639459528.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a group of people sitting on a bench</b> </br></br>
+            B: <b>a group of people sitting on a bench in a park</b> </br>
+            
+            <tr>
+            <td>
+            Image 36
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/1313961775.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a child is floating in the water with a red kayak</b> </br></br>
+            B: <b>a young girl in a red bathing suit is in a body of water</b> </br>
+            
+            <tr>
+            <td>
+            Image 37
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/5026046208.jpg", width="300">
+            </td>
+            <td>
+            A: <b>two people are picking crops in a field</b> </br></br>
+            B: <b>a man in a straw hat is working in a field</b> </br>
+            
+            <tr>
+            <td>
+            Image 38
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/5323049335.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man in orange is snowboarding</b> </br></br>
+            B: <b>a man in an orange jacket is snowboarding down a snowy hill</b> </br>
+            
+            <tr>
+            <td>
+            Image 39
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/4787038693.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man and a woman are sitting on a ledge</b> </br></br>
+            B: <b>a man and a woman are sitting on a rock with a tennis racket in the background</b> </br>
+            
+            <tr>
+            <td>
+            Image 40
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/3329961466.jpg", width="300">
+            </td>
+            <td>
+            A: <b>three men pose for a picture at a barbecue</b> </br></br>
+            B: <b>three men are posing for a picture</b> </br>
+            
+            <tr>
+            <td>
+            Image 41
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/6338542128.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a football player in red is running with the football</b> </br></br>
+            B: <b>a football player in a red uniform is running with a football</b> </br>
+            
+            <tr>
+            <td>
+            Image 42
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/3091786541.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man in a white shirt is cooking</b> </br></br>
+            B: <b>a man in a white shirt is cooking in a kitchen</b> </br>
+            
+            <tr>
+            <td>
+            Image 43
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/2780179669.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a girl in a blue hat is sitting on a rock in the middle of a body of water</b> </br></br>
+            B: <b>a girl in a blue hat is sitting on a rock in the water</b> </br>
+            
+            <tr>
+            <td>
+            Image 44
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/4731694958.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a group of people ride bikes on a bridge</b> </br></br>
+            B: <b>a group of people riding bikes on a street</b> </br>
+            
+            <tr>
+            <td>
+            Image 45
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/2898810636.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a young boy in a blue shirt is running on a lawn</b> </br></br>
+            B: <b>a young boy in a blue shirt is running on a trampoline</b> </br>
+            
+            <tr>
+            <td>
+            Image 46
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/3647826834.jpg", width="300">
+            </td>
+            <td>
+            A: <b>two children are playing on a playground</b> </br></br>
+            B: <b>two children are playing on a red and blue gym</b> </br>
+            
+            <tr>
+            <td>
+            Image 47
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/198534816.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a baseball player in a blue uniform is sliding down the base while a catcher in a red uniform is</b> </br></br>
+            B: <b>a baseball player in a red uniform is sliding into a baseball</b> </br>
+            
+            <tr>
+            <td>
+            Image 48
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/2925163942.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man in a blue jacket runs in the street</b> </br></br>
+            B: <b>a man in a blue jacket runs in a race</b> </br>
+            
+            <tr>
+            <td>
+            Image 49
+            </td>
+            <td>
+                <img src="https://chihyaoma.github.io/static/assets/img/flickr30k-images/3608661756.jpg", width="300">
+            </td>
+            <td>
+            A: <b>a man walking down a street with a pink ball</b> </br></br>
+            B: <b>a man walking down a street with a pink ball</b> </br>
+            </table><!-- GT:[0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1] --></body></html>
