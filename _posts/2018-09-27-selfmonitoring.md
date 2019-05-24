@@ -57,6 +57,8 @@ International Conference on Learning Representations (ICLR), 2019<br>
 [[arXiv]](https://arxiv.org/abs/1901.03035)
 [[OpenReview]](https://openreview.net/forum?id=r1GAsjC5Fm)
 [[GitHub]](https://github.com/chihyaoma/selfmonitoring-agent)
+[[Poster]](../../../../static/assets/pdf/iclr2019_poster_final-compressed.pdf)
+<!-- <a href="static/assets/pdf/iclr2019_poster_final-compressed.pdf">[Poster]</a> / -->
 
 ---
 <div class="section_header">Abstract</div>
