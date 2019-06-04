@@ -83,9 +83,7 @@ Please refer to the Appendix for the full trajectories and unsuccessful examples
 ---
 <div class="section_header">Navigation Performance on Room-to-Room</div>
 
-<div>
-<img style="float: right;" src="../../../../static/assets/img/blog/regretful-sota.png?raw=true" width="50%">
-</div>
+
 <span style="vertical-align:middle">
   <br>
   We evaluate our proposed Regretful Agent on the Room-to-Room dataset for Vision-and-Language Navigation task.
@@ -94,6 +92,9 @@ Please refer to the Appendix for the full trajectories and unsuccessful examples
   Our best performing model achieves 41% SPL and 50% SR on validation unseen set when trained with the synthetic data.
   We demonstrate absolute 8% SPL improvement and 5% SR improvement on the test server over the current state-of-the-art method.
 </span>
+<div>
+<img style="display:block; margin-left: auto; margin-right: auto;" src="../../../../static/assets/img/blog/regretful-sota.png?raw=true" width="75%">
+</div>
 <div style="clear: both;"></div>
 
 ---
@@ -120,7 +121,7 @@ If you find this repository useful, please cite our paper:
 <pre><code>
 @inproceedings{ma2019theregretful,
     title={The Regretful Agent: Heuristic-Aided Navigation through Progress Estimation},
-    author={Chih-Yao Ma and Zuxuan Wu and Ghassan AlRegib and Caiming Xiong and Zsolt Kira},
+    author={Ma, Chih-Yao and Wu, Zuxuan and AlRegib, Ghassan and Xiong, Caiming and Kira, Zsolt},
     booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
     year={2019},
     url={https://arxiv.org/abs/1903.01602},

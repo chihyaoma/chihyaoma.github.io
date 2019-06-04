@@ -85,13 +85,14 @@ For the full figures and more examples of successful and failed agents in both u
 ---
 <div class="section_header">Navigation Performance on Room-to-Room</div>
 
-<div>
-<img style="float: right;" src="../../../../static/assets/img/blog/selfmonitoring-sota.png" width="50%">
-</div>
+
 <span style="vertical-align:middle">
   <br>
   Our method achieves significant performance improvement compared to the state of the arts without data augmentation. We achieve 70% SR on the seen environment and 57% on the unseen environment while the existing best performing method achieved 63% and 50% SR respectively. When trained with synthetic data, our approach achieves slightly better performance on the seen environments and significantly better performance on both the validation unseen environments and the test unseen environments when submitted to the test server. We achieve 3% and 8% improvement on SR on both validation and test unseen environments. Both results with or without data augmentation indicate that our proposed approach is more generalizable to unseen environments.
 </span>
+<div>
+<img style="display:block; margin-left: auto; margin-right: auto;" src="../../../../static/assets/img/blog/selfmonitoring-sota.png" width="75%">
+</div>
 <div style="clear: both;"></div>
 
 ---
@@ -118,7 +119,7 @@ If you find this repository useful, please cite our paper:
 <pre><code>
 @inproceedings{ma2019selfmonitoring,
     title={Self-Monitoring Navigation Agent via Auxiliary Progress Estimation},
-    author={Chih-Yao Ma and Jiasen Lu and Zuxuan Wu and Ghassan AlRegib and Zsolt Kira and Richard Socher and Caiming Xiong},
+    author={Ma, Chih-Yao and Lu, Jiasen and Wu, Zuxuan and AlRegib, Ghassan and Kira, Zsolt and Socher, Richard and Xiong, Caiming},
     booktitle={Proceedings of the International Conference on Learning Representations (ICLR)},
     year={2019},
     url={https://arxiv.org/abs/1901.03035},
