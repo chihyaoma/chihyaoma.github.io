@@ -49,6 +49,7 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019 **(Oral)
 
 [[arXiv]](https://arxiv.org/abs/1903.01602)
 [[GitHub]](https://github.com/chihyaoma/regretful-agent)
+[[Poster]](../../../../static/assets/pdf/cvpr2019_poster_final-compressed.pdf)
 
 ---
 <div class="section_header">Demo</div>
