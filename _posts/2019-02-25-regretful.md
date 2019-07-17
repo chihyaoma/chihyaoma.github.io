@@ -56,6 +56,9 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019 **(Oral)
 <p align="center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/zN7HrtJ_nlc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
+<!-- <p align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Je5LlZlqUt8?start=4858" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p> -->
 
 ---
 <div class="section_header">Abstract</div>
