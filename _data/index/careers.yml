@@ -49,7 +49,8 @@
     detail: Georgia Tech
     i18n: company_c
   desc:
-    detail: Electrical and Computer Engineering
+    detail: Electrical and Computer Engineering <br /><br />
+            with <a href="https://ghassanalregib.info/">Ghassan AlRegib</a> (advisor) and <a href="https://www.cc.gatech.edu/~zk15/">Zsolt Kira</a>
     i18n: company_c_desc
   date:
     detail: 2014 Fall - 2019 Fall (expected)
@@ -63,7 +64,8 @@
     detail: National Chiao Tung University
     i18n: company_d
   desc:
-    detail: Electrical and Computer Engineering
+    detail: Electrical and Computer Engineering <br /><br />
+            with <a href="https://www.hmhang.com/">Hsueh-Ming Hang</a>
     i18n: company_d_desc
   date:
     detail: Aug. 2012 - May 2014
