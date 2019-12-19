@@ -1,3 +1,6 @@
 Gemfile*
 _site/*
 .DS_Store
+
+vendor/*
+.bundle
