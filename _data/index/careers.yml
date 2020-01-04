@@ -1,7 +1,22 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Facebook Research
+    detail: Facebook
+    i18n: company_g
+  desc:
+    detail: Deep learning research and challenging AI product <br /><br />
+            with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> (Mobile Vision)
+    i18n: company_g_desc
+  date:
+    detail: Summer 2020 - Future
+    i18n: company_g_date
+  job:
+    detail: Research Scientist
+    i18n: company_g_job
+  icon: fa-plus-square
+
+- name:
+    detail: Facebook
     i18n: company_f
   desc:
     detail: Self-Supervised Learning <br /><br />
