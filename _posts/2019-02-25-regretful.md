@@ -127,7 +127,7 @@ Please refer to the Appendix for the full trajectories and unsuccessful examples
 
 ---
 <div class="section_header">Citation</div>
-If you find this repository useful, please cite our paper:
+If you find this work useful, please cite our paper:
 <pre><code>
 @inproceedings{ma2019theregretful,
     title={The Regretful Agent: Heuristic-Aided Navigation through Progress Estimation},

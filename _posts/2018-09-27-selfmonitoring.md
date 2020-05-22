@@ -115,7 +115,7 @@ For the full figures and more examples of successful and failed agents in both u
 
 ---
 <div class="section_header">Citation</div>
-If you find this repository useful, please cite our paper:
+If you find this work useful, please cite our paper:
 <pre><code>
 @inproceedings{ma2019selfmonitoring,
     title={Self-Monitoring Navigation Agent via Auxiliary Progress Estimation},
