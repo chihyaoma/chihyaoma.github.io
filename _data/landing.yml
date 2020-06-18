@@ -24,6 +24,12 @@
   tpl: skills.html
   css: team
 
+- id: services
+  i18n: service.service
+  name: Services
+  tpl: service.html
+  css:
+
 # - id: projects
 #   i18n: nav.projects
 #   name: Projects
