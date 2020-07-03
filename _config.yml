@@ -12,8 +12,8 @@ logo: /static/assets/img/landing/20171124-cropped-circle.png
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: Chih-Yao Ma  # Be used at blog posts' author.
-  first_name: Chih-Yao  # Be used at index page about me section.
+  name: Kevin Chih-Yao Ma  # Be used at blog posts' author.
+  first_name: Chih-Yao (Kevin)  # Be used at index page about me section.
   last_name: Ma  # Be used at index page about me section.
   avatar: /static/assets/img/landing/20171124_cropped.jpg  # upload your avatar at directory and edit it.
   github_username: chihyaoma  # Leave blank if you don't have now
@@ -29,7 +29,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-globe
     - name: icon-ubuntu
-  desc: My name is Chih-Yao Ma. I am a Ph.D. student at Georgia Tech. In recent years, I have been primarily focusing on the research fields at the intersection of computer vision, natural language processing, and temporal reasoning. I have conducted researches on large-scale video classification, fine-grained human action recognition, relational reasoning for video understanding, visually grounded image/video captioning, vision-and-language navigation agents, and self-supervised visual representation learning. # Describe yourself.
+  desc: My name is Chih-Yao (Kevin) Ma. I am a Ph.D. student at Georgia Tech. In recent years, I have been primarily focusing on the research fields at the intersection of computer vision, natural language processing, and temporal reasoning. I have conducted researches on large-scale video classification, fine-grained human action recognition, relational reasoning for video understanding, visually grounded image/video captioning, vision-and-language navigation agents, and self-supervised visual representation learning. # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
