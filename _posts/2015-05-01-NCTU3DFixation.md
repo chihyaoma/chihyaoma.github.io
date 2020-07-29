@@ -96,7 +96,7 @@ I have compressed all the files together to create one zip file which is current
 </div>
 
 <br>
-If the above link doesn't work or somehow gives you low download speed, please refer to this [Google Drive link](https://drive.google.com/open?id=1lgPDBOEYj7TgD3pjINn-d5OOImrafeEb) for downloading our dataset.
+If the above link doesn't work or somehow gives you low download speed, please refer to this [Google Drive link](https://drive.google.com/file/d/1hjJp6s4vBeFZm-aYil-MRvG2zytjEXSL) for downloading our dataset.
 
 This compressed file includes:
 
