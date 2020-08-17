@@ -20,7 +20,7 @@ author:  # change following line to your infomation.
   linkedin_id: chih-yao-ma-9b5b3063 # Leave blank if you don't have now
   facebook_username: chihyaoma  # Leave blank if you don't have now
   twitter_username: chihyaoma  # Leave blank if you don't have now
-  email: cyma@gatech.edu  # Leave blank if you don't have now
+  email: cyma@fb.com  # Leave blank if you don't have now
   # cv: static/assets/pdf/chihyaoma_resume_cv.pdf  # An online CV can be printed as PDF, leave blank if you don't have now
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
   skill_icon1:
@@ -29,7 +29,8 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: fa-globe
     - name: icon-ubuntu
-  desc: My name is Kevin Chih-Yao Ma. I am a Ph.D. student at Georgia Tech. In recent years, I have been primarily focusing on the research fields at the intersection of computer vision, natural language processing, and temporal reasoning. I have conducted researches on large-scale video classification, fine-grained human action recognition, relational reasoning for video understanding, visually grounded image/video captioning, vision-and-language navigation agents, and self-supervised visual representation learning. # Describe yourself.
+  desc: My name is Kevin Chih-Yao Ma. I am a Research Scientist at Facebook. In recent years, I have been primarily focusing on the research fields at the intersection of computer vision, natural language processing, and temporal reasoning. I have conducted researches on large-scale video classification, fine-grained human action recognition, relational reasoning for video understanding, visually grounded image/video captioning, vision-and-language navigation agents, self-supervised visual representation learning, and semi-supervised learning. # Describe yourself.
+  # desc: My name is Kevin Chih-Yao Ma. I am a Ph.D. student at Georgia Tech. In recent years, I have been primarily focusing on the research fields at the intersection of computer vision, natural language processing, and temporal reasoning. I have conducted researches on large-scale video classification, fine-grained human action recognition, relational reasoning for video understanding, visually grounded image/video captioning, vision-and-language navigation agents, and self-supervised visual representation learning. # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
