@@ -2606,6 +2606,18 @@ body {
       font-size: 18px;
       margin-top: 5px;
     }
+    #hiring_msg {
+      margin-top: 30px;
+      margin-left: 60px;
+      margin-right: 60px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 16px;
+      background-color: #3385FF;
+      color: #fff;
+      border-radius: 30px;
+      opacity: 0.7;
+    }
   }
   .features-icon {
     color: #3385FF;
@@ -2809,17 +2821,4 @@ body {
       }
     }
   }
-}
-
-#hiring_msg {
-  margin-top: 30px;
-  margin-left: 60px;
-  margin-right: 60px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-size: 16px;
-  background-color: #3385FF;
-  color: #fff;
-  border-radius: 30px;
-  opacity: 0.7;
 }
