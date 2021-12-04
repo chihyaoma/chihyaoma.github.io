@@ -1,11 +1,11 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Facebook
+    detail: Meta
     i18n: company_g
   desc:
     detail: Deep learning research and challenging AI product <br /><br />
-            with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> (Mobile Vision)
+            with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> and <a href="https://research.fb.com/people/he-zijian/">Zijian He</a> (Mobile Vision)
     i18n: company_g_desc
   date:
     detail: Aug. 2020 - Present
@@ -16,7 +16,7 @@
   icon: fa-plus-square
 
 - name:
-    detail: Facebook
+    detail: Meta
     i18n: company_f
   desc:
     detail: Self-Supervised Learning <br /><br />
