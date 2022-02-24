@@ -2,6 +2,21 @@
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
     detail: Meta
+    i18n: company_h
+  desc:
+    detail: Semi-Supervised Learning, Federated Learning, Multi-Task Learning <br /><br />
+            with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> and <a href="https://research.fb.com/people/he-zijian/">Zijian He</a> (Mobile Vision)
+    i18n: company_h_desc
+  date:
+    detail: Fed. 2022 - Present
+    i18n: company_h_date
+  job:
+    detail: Senior Research Scientist
+    i18n: company_h_job
+  icon: fa-plus-square
+
+- name:
+    detail: Meta
     i18n: company_g
   desc:
     detail: Deep learning research and challenging AI product <br /><br />
