@@ -1,8 +1,5 @@
 # skills section data
 label: Interest
 id : cs
-# aspects: Deep Learning, Machine Learning, Visual Question Answering, Visual Captioning, Action Recognition, Vision and Language Navigation, Federated Learning, Natural Language Process
-# percentage: 90, 70, 60, 88, 75, 85, 75, 50
-aspects: Semi-Supervised Learning, Vision-and-Language Nav., Visual Captioning, Visual Question Answering, Action Recognition, Natural Language Process, Federated Learning
-percentage: 80, 60, 55, 35, 30, 20, 70
-
+aspects: Deep Learning, Machine Learning, Visual Question Answering, Visual Captioning, Action Recognition, Vision and Language Navigation, Reinforcement Learning, Natural Language Process
+percentage: 90, 70, 60, 88, 75, 85, 55, 50
