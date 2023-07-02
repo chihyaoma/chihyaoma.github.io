@@ -5,7 +5,7 @@
     i18n: company_h
   desc:
     detail: Generative Models <br /><br />
-            with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> and <a href="https://research.fb.com/people/he-zijian/">Zijian He</a> (GenAI Foundation)
+            with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> and <a href="https://research.fb.com/people/he-zijian/">Zijian He</a> (GenAI Foundation team)
     i18n: company_h_desc
   date:
     detail: Jan. 2023 - Present
@@ -19,8 +19,8 @@
     detail: Meta
     i18n: company_h
   desc:
-    detail: Semi-Supervised Learning, Federated Learning, Multi-Task Learning <br /><br />
-            with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> and <a href="https://research.fb.com/people/he-zijian/">Zijian He</a> (Mobile Vision)
+    detail: Semi-Supervised Learning, Federated Learning<br /><br />
+            with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> and <a href="https://research.fb.com/people/he-zijian/">Zijian He</a> (Mobile Vision team)
     i18n: company_h_desc
   date:
     detail: Jan. 2022 - dec. 2022
@@ -34,8 +34,8 @@
     detail: Meta
     i18n: company_g
   desc:
-    detail: Deep learning research and challenging AI product <br /><br />
-            with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> and <a href="https://research.fb.com/people/he-zijian/">Zijian He</a> (Mobile Vision)
+    detail: Data-efficient learning<br /><br />
+            with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> and <a href="https://research.fb.com/people/he-zijian/">Zijian He</a> (Mobile Vision team)
     i18n: company_g_desc
   date:
     detail: Aug. 2020 - Dec. 2021
