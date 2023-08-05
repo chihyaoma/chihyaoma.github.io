@@ -8,10 +8,10 @@
             with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> and <a href="https://research.fb.com/people/he-zijian/">Zijian He</a> (GenAI Foundation team)
     i18n: company_h_desc
   date:
-    detail: Jan. 2023 - Present
+    detail: Aug. 2023 - Present
     i18n: company_h_date
   job:
-    detail: Senior Research Scientist
+    detail: Staff Research Scientist
     i18n: company_h_job
   icon: fa-plus-square
 
@@ -19,11 +19,11 @@
     detail: Meta
     i18n: company_h
   desc:
-    detail: Semi-Supervised Learning, Federated Learning<br /><br />
-            with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> and <a href="https://research.fb.com/people/he-zijian/">Zijian He</a> (Mobile Vision team)
+    detail: Generative Models, Federated Learning, Semi-Supervised Learning<br /><br />
+            with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> and <a href="https://research.fb.com/people/he-zijian/">Zijian He</a> (Mobile Vision & GenAI Foundation team)
     i18n: company_h_desc
   date:
-    detail: Jan. 2022 - dec. 2022
+    detail: Jan. 2022 - July. 2023
     i18n: company_h_date
   job:
     detail: Senior Research Scientist
