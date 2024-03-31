@@ -4,7 +4,9 @@
     detail: Meta
     i18n: company_h
   desc:
-    detail: Generative Models <br /><br />
+    detail: Generative Models<br />
+     Core contributor of <a href="https://arxiv.org/abs/2309.15807">Emu</a> that powers <a href="https://ai.meta.com/blog/emu-text-to-video-generation-image-editing-research/">Emu Video/Edit</a> and <a href="https://imagine.meta.com/">Imagine</a>.<br />
+            <br />
             with <a href="https://sites.google.com/site/vajdap/what-we-do">Peter Vajda</a> and <a href="https://research.fb.com/people/he-zijian/">Zijian He</a> (GenAI Media Foundation team)
     i18n: company_h_desc
   date:
