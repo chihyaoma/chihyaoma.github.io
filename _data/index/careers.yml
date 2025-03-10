@@ -6,7 +6,7 @@
   desc:
     detail:
      Lead IC in Meta's <a href="https://ai.meta.com/research/movie-gen/">Movie Gen</a>.<br/>
-      Built llama-like DiT, scale model with parallelization, and co-lead post-training. <br/><br/>
+      Built training codebase, designed model arch (llama-like DiT), led model parallelization, and co-lead post-training. <br/><br/>
 
      Core contributor of <a href="https://arxiv.org/abs/2309.15807">Emu</a> that powers <a href="https://ai.meta.com/blog/emu-text-to-video-generation-image-editing-research/">Emu Video/Edit</a> and <a href="https://imagine.meta.com/">Imagine</a>.<br />
             <br />
