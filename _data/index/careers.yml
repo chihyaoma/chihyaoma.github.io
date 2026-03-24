@@ -5,7 +5,9 @@
     i18n: company_h
   desc:
     detail:
-        Building native multimodal foundation model<br />
+        Growing the team, built training codebase, babysit model runs, work on data, work on eval, then ... <br/>
+        release <a href="https://microsoft.ai/news/introducing-mai-image-2/">MAI-Image-2</a> that placed MAI among the top 3 labs worldwide<br />
+        <br />
         with <a href="https://scholar.google.com/citations?user=nzEluBwAAAAJ&hl=en">Nando de Freitas</a>, <a href="https://scholar.google.com/citations?user=L7lMQkQAAAAJ&hl=en">Karén Simonyan</a>, and <a href="https://en.wikipedia.org/wiki/Mustafa_Suleyman">Mustafa Suleyman</a>
     i18n: company_h_desc
   date:
